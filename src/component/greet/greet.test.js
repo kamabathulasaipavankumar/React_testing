@@ -8,6 +8,6 @@ test('render a button and handleClick Event',()=>{
     expect(buttonElement).toBeInTheDocument();
 
     fireEvent.click(buttonElement)
-    expect(screen.getByText("Button Clicked!")).toBeInTheDocument();
+    expect(screen.getByText("Button Clicked")).toBeInTheDocument();
     
 })
